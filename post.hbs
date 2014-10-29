@@ -1,7 +1,7 @@
 {{!< default}}
 
 {{#post}}
-  <header class="intro-header" {{#if image}}style="background:no-repeat center center;background-image:url({{image}})"{{/if}}>
+  <header class="intro-header" {{> post-image}}>
       <div class="container">
           <div class="row">
               <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -26,5 +26,3 @@
       </div>
   </article>
 {{/post}}
-
-<hr>

@@ -1,0 +1,7 @@
+{{#if @blog.cover}}
+	style="background:no-repeat center center;background-image:url({{@blog.cover}})"
+{{else}}
+	{{#if image}}
+		style="background:no-repeat center center;background-image:url({{image}})"
+	{{/if}}
+{{/if}}
