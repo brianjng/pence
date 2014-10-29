@@ -1,7 +1,7 @@
-{{#if @blog.cover}}
-	style="background:no-repeat center center;background-image:url({{@blog.cover}})"
+{{#if image}}
+	style="background:no-repeat center center;background-image:url({{image}})"
 {{else}}
-	{{#if image}}
-		style="background:no-repeat center center;background-image:url({{image}})"
+	{{#if @blog.cover}}
+		style="background:no-repeat center center;background-image:url({{@blog.cover}})"
 	{{/if}}
 {{/if}}
