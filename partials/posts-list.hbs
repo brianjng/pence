@@ -1,17 +1,17 @@
 {{#foreach posts}}
-<article id="{{id}}" class="post-preview">
-  <a href="{{url}}">
-    <h2 class="post-title">
-      {{{title}}}
-    </h2>
-    <section class="post-subtitle">
-      {{excerpt}}
-    </section>
-  </a>
+  <article id="{{id}}" class="post-preview">
+    <a href="{{url}}">
+      <h2 class="post-title">
+        {{{title}}}
+      </h2>
+      <section class="post-subtitle">
+        {{excerpt}}
+      </section>
+    </a>
 
-  {{#author}}
-    <p class="post-meta">Posted by <a href="#">{{name}}</a> on September 24, 2014</p>
-  {{/author}}
-</article>
-<hr>
+    {{#author}}
+      <p class="post-meta">Posted by <a href="#">{{name}}</a> on September 24, 2014</p>
+    {{/author}}
+  </article>
+  <hr>
 {{/foreach}}
