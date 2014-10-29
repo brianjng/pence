@@ -1,28 +1,30 @@
 {{!< default}}
 
-<header class="intro-header" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{{title}}}</h1>
-                    {{#author}}
-                        <span class="meta">Posted by <a href="#">{{name}}</a> on August 24, 2014</span>
-                    {{/author}}
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+{{#post}}
+  <header class="intro-header" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  <div class="post-heading">
+                      <h1>{{{title}}}</h1>
+                      {{#author}}
+                          <span class="meta">Posted by <a href="#">{{name}}</a> on August 24, 2014</span>
+                      {{/author}}
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
 
-<article id="{{id}}">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                 {{content}}
-            </div>
-        </div>
-    </div>
-</article>
+  <article id="{{id}}" class="{{post_class}}">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                   {{content}}
+              </div>
+          </div>
+      </div>
+  </article>
+{{\post}}
 
 <hr>
