@@ -10,6 +10,10 @@ blockquote p:first-child {
 	margin-top: 0;
 }
 
+.btn {
+	text-decoration: none;
+}
+
 .btn.old {
 	font-size:14px;
 	font-weight:700;
@@ -20,4 +24,8 @@ blockquote p:first-child {
 .btn-lg.old {
 	font-size:16px;
 	padding:25px 35px
+}
+
+.post-preview>a>.post-subtitle {
+	margin-bottom: 15px;
 }
