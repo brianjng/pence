@@ -1,0 +1,36 @@
+{{!< default}}
+
+{{#author}}
+  <header class="intro-header" {{> cover-image}}>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="site-heading">
+            <h1>{{name}}</h1>
+            <hr class="small">
+            <span class="subheading">{{location}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {{bio}}
+      </div>
+    </div>
+  </div>
+
+  <hr>
+{{/author}}
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{> loop}}
+      {{pagination}}
+    </div>
+  </div>
+</div>
