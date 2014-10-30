@@ -29,3 +29,8 @@ blockquote p:first-child {
 .post-preview>a>.post-subtitle {
 	margin-bottom: 15px;
 }
+
+.pagination {
+	display: block;
+	text-align: center;
+}
