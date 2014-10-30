@@ -35,7 +35,7 @@ blockquote p:first-child {
 	text-align: center;
 }
 
-.post p {
+body {
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 2.0;
