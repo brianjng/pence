@@ -34,3 +34,11 @@ blockquote p:first-child {
 	display: block;
 	text-align: center;
 }
+
+.post p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 2.0;
+}
+
+.navbar-custom .navbar-brand{font-weight:500}
