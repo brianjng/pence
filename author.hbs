@@ -7,8 +7,10 @@
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           <div class="site-heading">
             <h1>{{name}}</h1>
-            <hr class="small">
-            <span class="subheading">{{location}}</span>
+            {{#if location}}
+              <hr class="small">
+              <span class="subheading">{{location}}</span>
+            {{/if}}
           </div>
         </div>
       </div>
