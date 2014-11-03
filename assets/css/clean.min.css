@@ -54,3 +54,7 @@ body {
 p.old {
 	line-height:1.5;
 }
+
+.disqus-thread {
+	margin-top: 30px;
+}
