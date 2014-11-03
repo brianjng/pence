@@ -55,6 +55,6 @@ p.old {
 	line-height:1.5;
 }
 
-.disqus_thread {
+#disqus_thread {
 	margin-top: 30px;
 }
