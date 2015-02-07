@@ -10,7 +10,7 @@
     </a>
 
     {{#author}}
-      <p class="post-meta">Published by <a href="{{url}}">{{name}}</a> on <time datetime="{{date published_at format='YYYY-MM-DD'}}">{{date published_at format="MMMM DD, YYYY"}}</time></p>
+      <p class="post-meta">Published by <a href="{{url}}">{{name}}</a> on <time datetime="{{published_at}}">{{date format="MMMM DD, YYYY"}}</time></p>
     {{/author}}
   </article>
   <hr>
