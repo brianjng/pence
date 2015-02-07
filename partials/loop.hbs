@@ -9,9 +9,7 @@
       </section>
     </a>
 
-    {{#author}}
-      <p class="post-meta">Published by <a href="{{url}}">{{name}}</a> on <time datetime="{{published_at}}">{{date format="MMMM DD, YYYY"}}</time></p>
-    {{/author}}
+    <p class="post-meta">Published by <a href="{{url}}">{{author}}</a> on <time datetime="{{published_at}}">{{date format="MMMM DD, YYYY"}}</time></p>
   </article>
   <hr>
 {{/foreach}}
